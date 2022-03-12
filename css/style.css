@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "AkkuratPro Regular";
+  src: url(../assets/fonts/AkkuratPro/AkkuratPro-Regular.otf);
+}
+
+
+/*CABECERA*/
+.header {
+  background-image: url(../assets/img/headers/cabecera-playa11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  top: 0%;
+}
+
+.menu-item:hover{
+  transform: scale(1.12);
+  transition: .1s;
+  transition-timing-function: linear;
+  background-color: #b4cfc386;
+}
+
+.container__img-card{
+  width: 200px;
+  height: 180px;
+  margin: auto;
+  
+}
+
+.img{
+  width:100%;
+  height: 100%;
+}
+
+.tarjeta-opiniones:hover{
+  transform: scale(1.02);
+  transition: .2s;
+  transition-timing-function: linear;
+  background-color: #b4cfc32a;
+  box-shadow: black 0px 0px 10px 1px;
+}
+
+
+
+.text-nav{
+  font-weight: 500;
+}
+
+.iconos-servicios{
+  margin: 7rem auto;
+}
+
+.instalaciones{
+  margin-top: 7rem;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.item-footer:hover{
+  transform: scale(1.2) rotate(360deg) translate(10px);
+  transition: .2s;
+  transition-timing-function: linear;
+}
+
+.nombre-opinion::after {
+  content: " ****";
+  font-size: 1.5rem;
+  color: #d9ff00;
+}
+
+.cuadro-reservas{
+  background-color: #17754b46;
+}
+
+.fondo__informacion-tarjeta{
+  background-color: #EBEBEB;
+}
+
+.fondo__tarjeta-ofertas{
+
+  background-color: rgb(247, 247, 240);
+}
+
+
+.minombre-footer:hover{
+  transform: scale(1.2);
+  transition: .1s;
+  transition-timing-function: linear;
+}
